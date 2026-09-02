@@ -5,13 +5,13 @@
   "minClientVersions": {
     "cursor": "3.13.0"
   },
-  "description": "Search, create, and update documents and daily notes.",
+  "description": "Create, read, update, and search documents and daily notes.",
   "author": {
     "name": "Craft Docs",
     "email": "feedback@craft.do"
   },
   "publisher": "Craft Docs",
-  "homepage": "https://www.craft.do/imagine/guide/mcp",
+  "homepage": "https://www.craft.do",
   "repository": "https://github.com/lukilabs/craft-cursor-plugin",
   "license": "MIT",
   "keywords": [

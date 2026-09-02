@@ -2,7 +2,7 @@
 
 Cursor plugin that connects agents to [Craft](https://www.craft.do) through Craft's official remote [Model Context Protocol](https://modelcontextprotocol.io/) server.
 
-Search, read, create, and update documents, daily notes, tasks, and collections in a connected Craft space.
+Create, read, update, and search documents, daily notes, tasks, and collections in a connected Craft space.
 
 ## Status
 
@@ -51,10 +51,10 @@ until that connection exists.
 
 | Category | Capabilities |
 | --- | --- |
-| Search | Cross-document search with tag, date, and regex filters |
 | Documents | Create, read, update, and delete documents |
 | Daily notes & tasks | Work with daily notes and task items |
 | Collections | Manage collections, including schema edits |
+| Search | Cross-document search with tag, date, and regex filters |
 
 The hosted runtime is the source of truth for tool names and schemas.
 

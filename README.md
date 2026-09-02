@@ -9,10 +9,6 @@ Search, read, create, and update documents, daily notes, tasks, and collections 
 This plugin is not yet published in the Cursor Marketplace. Until it is accepted,
 it will not appear in plugin search and `/add-plugin craft` will not work.
 
-## Compatibility
-
-Requires Cursor 3.13.0 or later.
-
 ## Test locally
 
 1. Clone this repository and open a terminal in its root.
@@ -69,33 +65,15 @@ The hosted runtime is the source of truth for tool names and schemas.
 - Because a connection is bound to one space, working across several spaces means adding one server entry per space.
 - `stimmt/craft-mcp` on Packagist is an unrelated Craft **CMS** plugin.
 
-## Links
+## Docs
 
-- Craft: https://www.craft.do/
 - Imagine with Craft: https://www.craft.do/imagine
 - Craft MCP guide: https://www.craft.do/imagine/guide/mcp
 - Connect Craft to Cursor: https://www.craft.do/imagine/guide/mcp/cursor
 - MCP support article: https://support.craft.do/en/integrate/mcp
-- Privacy policy: https://www.craft.do/privacy
-- Terms and conditions: https://www.craft.do/terms
-- Responsible disclosure: https://www.craft.do/security/responsible-disclosure
-- Support: feedback@craft.do
 - Server URL: https://mcp.craft.do/my/mcp
 
 Logo is Craft's official mark, from the `craftdocs` GitHub organization.
-
-## Validate
-
-Run the repository checks before submitting or updating the plugin:
-
-```sh
-node scripts/validate.mjs
-node scripts/validate.mjs --network
-```
-
-The network check verifies Craft's public links and the MCP server's OAuth
-discovery response. Continuous integration runs the offline checks on every push
-and pull request.
 
 ## License
 
